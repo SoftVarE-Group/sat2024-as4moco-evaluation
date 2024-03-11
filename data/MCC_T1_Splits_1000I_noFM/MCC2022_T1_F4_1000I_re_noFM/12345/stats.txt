@@ -1,0 +1,12 @@
+[INFO][autofolio.py:592] CV Stats
+[INFO][validate.py:83] PAR1: 444.1183
+[INFO][validate.py:84] PAR10: 1383.2487
+[INFO][validate.py:85] Timeouts: 4 / 138
+[INFO][validate.py:86] Presolved during feature computation: 0 / 138
+[INFO][validate.py:87] Solved: 134 / 138
+[INFO][validate.py:88] Solved in pre-schedule: 0 / 134
+[INFO][validate.py:89] As good as oracle: 31 / 134
+[INFO][validate.py:90] Unsolvable (removed): 22 / 160
+[INFO][validate.py:103] Oracle: 205.8005
+[INFO][validate.py:105] Single Best: 3161.6764
+[INFO][validate.py:107] Normalized Score: 0.3983

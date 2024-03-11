@@ -1,0 +1,2373 @@
+[ {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_012.dimacs",
+  "start" : 1708411772.808485811,
+  "end" : 1708411773.123872804,
+  "duration" : 0.315,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 4.947802324992E14,
+      "runtime" : 0.297
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 4.947802324992E14,
+    "runtime" : 0.297
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_020.dimacs",
+  "start" : 1708411773.164808961,
+  "end" : 1708411773.791628493,
+  "duration" : 0.626,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 9.588221870930865E22,
+      "runtime" : 0.625
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 9.588221870930865E22,
+    "runtime" : 0.625
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_021.dimacs",
+  "start" : 1708411773.793191223,
+  "end" : 1708411773.951690640,
+  "duration" : 0.158,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 7.846378259878948E56,
+      "runtime" : 0.157
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 7.846378259878948E56,
+    "runtime" : 0.157
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_024.dimacs",
+  "start" : 1708411773.961842338,
+  "end" : 1708411774.010026607,
+  "duration" : 0.048,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 8.796093022208E12,
+      "runtime" : 0.044
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 8.796093022208E12,
+    "runtime" : 0.044
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_025.dimacs",
+  "start" : 1708411774.023116892,
+  "end" : 1708411774.427067372,
+  "duration" : 0.403,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 9.953536480433252E119,
+      "runtime" : 0.402
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 9.953536480433252E119,
+    "runtime" : 0.402
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_028.dimacs",
+  "start" : 1708411774.427821716,
+  "end" : 1708411774.462930700,
+  "duration" : 0.035,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 4.398046511104E12,
+      "runtime" : 0.033
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 4.398046511104E12,
+    "runtime" : 0.033
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_032.dimacs",
+  "start" : 1708411774.470007588,
+  "end" : 1708411775.083806706,
+  "duration" : 0.613,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 3.721928700008853E129,
+      "runtime" : 0.611
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 3.721928700008853E129,
+    "runtime" : 0.611
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_034.dimacs",
+  "start" : 1708411775.084730694,
+  "end" : 1708411775.962097477,
+  "duration" : 0.877,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 1.7528422464E10,
+      "runtime" : 0.876
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 1.7528422464E10,
+    "runtime" : 0.876
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_035.dimacs",
+  "start" : 1708411775.969010041,
+  "end" : 1708411776.008403739,
+  "duration" : 0.039,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 1.2379400392853803E27,
+      "runtime" : 0.038
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 1.2379400392853803E27,
+    "runtime" : 0.038
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_039.dimacs",
+  "start" : 1708411776.014590209,
+  "end" : 1708411776.052233152,
+  "duration" : 0.037,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 1.2089258196146292E24,
+      "runtime" : 0.036
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 1.2089258196146292E24,
+    "runtime" : 0.036
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_047.dimacs",
+  "start" : 1708411776.058979634,
+  "end" : 1708411776.669878807,
+  "duration" : 0.61,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 2268.0,
+      "runtime" : 0.609
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 2268.0,
+    "runtime" : 0.609
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_054.dimacs",
+  "start" : 1708411776.675758092,
+  "end" : 1708411791.152030111,
+  "duration" : 14.476,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.014
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.052
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.016
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.014
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.367
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.017
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "OK",
+      "solution" : "Infinity",
+      "runtime" : 0.991
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "dpmcpre/1pre1mp0",
+    "status" : "OK",
+    "solution" : "Infinity",
+    "runtime" : 0.991
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_061.dimacs",
+  "start" : 1708411791.219885564,
+  "end" : 1708411791.329537091,
+  "duration" : 0.109,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 1.125899906842624E15,
+      "runtime" : 0.108
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 1.125899906842624E15,
+    "runtime" : 0.108
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_064.dimacs",
+  "start" : 1708411791.335780293,
+  "end" : 1708411795.366296216,
+  "duration" : 4.03,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.071
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "OK",
+      "solution" : 6.953694693511856E124,
+      "runtime" : 1.944
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_Arjun.sh",
+    "status" : "OK",
+    "solution" : 6.953694693511856E124,
+    "runtime" : 1.944
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_065.dimacs",
+  "start" : 1708411795.387907387,
+  "end" : 1708411801.669928364,
+  "duration" : 6.282,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "OK",
+      "solution" : 4.7262168E7,
+      "runtime" : 1.312
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.544607183,0.611868817,0.082643774,0.863055813,0.816515125,0.089688450,0.801550583,0.096333926,0.771428196,0.000285285,5.267464304,0.000000000,0.018841067,0.000208036,0.000000001,0.000148967,0.000000063,0.000098629,1.220000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.532508874,0.980194945,2.000000000,-1.162618796,0.304054054,0.802772972,0.000000000,0.500000000,0.391891892,1.100000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 1.17,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.065,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.051,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 1.29
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.375
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "OK",
+    "solution" : 4.7262168E7,
+    "runtime" : 1.312
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_067.dimacs",
+  "start" : 1708411801.694537734,
+  "end" : 1708411805.151705720,
+  "duration" : 3.457,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.064
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "OK",
+      "solution" : 1.1068046444225731E20,
+      "runtime" : 1.378
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_Arjun.sh",
+    "status" : "OK",
+    "solution" : 1.1068046444225731E20,
+    "runtime" : 1.378
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_068.dimacs",
+  "start" : 1708411805.163015280,
+  "end" : 1708411805.879248375,
+  "duration" : 0.716,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 3.638107732202354E63,
+      "runtime" : 0.715
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 3.638107732202354E63,
+    "runtime" : 0.715
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_069.dimacs",
+  "start" : 1708411805.880087941,
+  "end" : 1708411809.855926112,
+  "duration" : 3.975,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.038
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "OK",
+      "solution" : 4.138810676E11,
+      "runtime" : 1.923
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_Arjun.sh",
+    "status" : "OK",
+    "solution" : 4.138810676E11,
+    "runtime" : 1.923
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_070.dimacs",
+  "start" : 1708411809.867682641,
+  "end" : 1708411816.950702929,
+  "duration" : 7.083,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "OK",
+      "solution" : 2.5205389326E10,
+      "runtime" : 1.532
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.504389585,0.677653937,0.076783148,0.876497776,0.813964557,0.087506630,0.790439870,0.091592677,0.758938128,0.000130173,4.766793250,0.000000000,0.007362655,0.000153473,0.000000000,0.000119048,0.000000002,0.000022539,1.560000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.504850386,0.982219762,2.000000000,-1.089617952,0.400621118,0.498058245,0.000000000,0.500000000,0.198757764,1.320000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 1.395,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.08,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.058,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 1.627
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.37
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "OK",
+    "solution" : 2.5205389326E10,
+    "runtime" : 1.532
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_073.dimacs",
+  "start" : 1708411816.955306228,
+  "end" : 1708411817.073884223,
+  "duration" : 0.118,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "OK",
+      "solution" : 1.1425780621440715E33,
+      "runtime" : 0.117
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "d4/default.sh",
+    "status" : "OK",
+    "solution" : 1.1425780621440715E33,
+    "runtime" : 0.117
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_081.dimacs",
+  "start" : 1708411817.080278798,
+  "end" : 1708411846.989641198,
+  "duration" : 29.909,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.041
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.022
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.017
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.012
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "OK",
+      "solution" : 3.25433E11,
+      "runtime" : 15.789
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "dpmcpre/1pre1mp0",
+    "status" : "OK",
+    "solution" : 3.25433E11,
+    "runtime" : 15.789
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_084.dimacs",
+  "start" : 1708411846.995920891,
+  "end" : 1708411896.533915226,
+  "duration" : 49.537,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.028
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.206
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.021
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.011
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.065
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "OK",
+      "solution" : 5.363073716E11,
+      "runtime" : 11.169
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "gpmc_r2/track1",
+    "status" : "OK",
+    "solution" : 5.363073716E11,
+    "runtime" : 11.169
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_086.dimacs",
+  "start" : 1708411896.544741908,
+  "end" : 1708412174.150606369,
+  "duration" : 277.605,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "OK",
+      "solution" : 16.0,
+      "runtime" : 263.941
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.784354175,0.029151623,0.723011482,0.847540868,0.815535946,0.757223980,0.800412876,0.767768866,0.783314940,0.000000223,4.324556942,0.000000000,0.000011705,0.000000373,0.000000000,0.000000052,0.000000000,0.000000003,0.740000000,?,?,?,?,?,?,3779.285714286,0.313304007,914.000000000,4527.000000000,4527.000000000,914.000000000,4422.000000000,3929.000000000,4277.000000000,44.883464764,0.068293389,39.458424508,49.003273322,49.003273322,39.458424508,48.363451260,42.564450475,44.486193947,5.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.714458968,0.928547313,2.000000000,-0.014609772,0.029910714,3.884928696,0.000000000,0.500000000,0.935714286,3.660000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 4.132,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 5.467,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.436,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 1.205
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.379
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "OK",
+    "solution" : 16.0,
+    "runtime" : 263.941
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_103.dimacs",
+  "start" : 1708412174.171245497,
+  "end" : 1708412175.449292924,
+  "duration" : 1.278,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "OK",
+      "solution" : 362880.0,
+      "runtime" : 0.265
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "dpmcpre/1pre1mp1",
+    "status" : "OK",
+    "solution" : 362880.0,
+    "runtime" : 0.265
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_108.dimacs",
+  "start" : 1708412175.455558418,
+  "end" : 1708412404.514569791,
+  "duration" : 229.059,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "OK",
+      "solution" : 2.8535265087098876E154,
+      "runtime" : 222.143
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.863676552,0.270313747,0.032702854,1.000000000,1.000000000,0.467083503,1.000000000,0.872083690,0.972849325,0.098785745,1.262825345,0.000000016,0.576402551,0.301893760,0.000758259,0.134021299,0.012034020,0.041706148,0.040000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.684259329,0.997747200,2.000000000,0.480522088,0.022030651,4.657859184,0.000000000,0.500000000,0.955938697,1.240000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 1.968,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.716,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.736,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.853
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.352
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "OK",
+    "solution" : 2.8535265087098876E154,
+    "runtime" : 222.143
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_111.dimacs",
+  "start" : 1708412404.579966498,
+  "end" : 1708412410.973677726,
+  "duration" : 6.393,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.039
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "OK",
+      "solution" : 4.249103942534137E183,
+      "runtime" : 2.319
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+    "status" : "OK",
+    "solution" : 4.249103942534137E183,
+    "runtime" : 2.319
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_127.dimacs",
+  "start" : 1708412410.995446879,
+  "end" : 1708412793.658606200,
+  "duration" : 382.663,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "OK",
+      "solution" : 330513.0,
+      "runtime" : 373.294
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.820781855,0.022157532,0.767053579,0.884408134,0.843949640,0.798113050,0.832605493,0.808215832,0.820489054,0.000002697,6.295940502,0.000000000,0.000230448,0.000001082,0.000000000,0.000000181,0.000000002,0.000000020,1.100000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.040000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.767463442,0.953675049,2.000000000,-0.010519791,0.023333333,4.093299652,0.000000000,0.500000000,0.921666667,3.400000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 3.977,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.66,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.592,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 1.717
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.375
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "OK",
+    "solution" : 330513.0,
+    "runtime" : 373.294
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_128.dimacs",
+  "start" : 1708412793.693859304,
+  "end" : 1708412892.910831173,
+  "duration" : 99.216,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.039
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.02
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.019
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.799
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.039
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.031
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.013
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.071
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "OK",
+      "solution" : 3.035420144102702E82,
+      "runtime" : 2.167
+    } ]
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "OK",
+    "solution" : 3.035420144102702E82,
+    "runtime" : 2.167
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_130.dimacs",
+  "start" : 1708412892.980920312,
+  "end" : 1708413270.967638537,
+  "duration" : 377.986,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "OK",
+      "solution" : 8.46739901E8,
+      "runtime" : 376.533
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.081871532,1.166159234,0.000543606,0.404301134,0.231865652,0.003218233,0.108073562,0.013093722,0.036384375,0.033311581,0.037471175,0.030037798,0.037155858,0.033985429,0.031138770,0.033944880,0.033441299,0.033799806,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.331350292,0.645487223,0.900000000,0.021711367,0.206140351,1.068500385,0.000000000,0.500000000,0.491228070,0.020000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 0.035,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.01,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 0.93,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.016
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.439
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "OK",
+    "solution" : 8.46739901E8,
+    "runtime" : 376.533
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_133.dimacs",
+  "start" : 1708413271.049527203,
+  "end" : 1708414185.781981103,
+  "duration" : 914.732,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "OK",
+      "solution" : 2.0,
+      "runtime" : 893.001
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.287877538,0.442260143,0.000194525,0.970970272,0.449852747,0.200224280,0.378759097,0.210775457,0.254776871,0.039096745,0.444547456,0.000000000,0.074023540,0.057967880,0.017816217,0.056062009,0.025251604,0.031438240,0.120000000,?,?,?,?,?,?,543.500000000,0.476991925,231.000000000,1272.000000000,931.000000000,298.000000000,695.000000000,340.000000000,487.000000000,79.022523784,0.341733599,39.116472546,146.051666667,122.178619756,52.204899777,98.153846154,56.825352113,75.870967742,5.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.277891623,0.996444063,2.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,12.540000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 12.943,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 5.411,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.392,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.544
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.373
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+    "status" : "OK",
+    "solution" : 2.0,
+    "runtime" : 893.001
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_142.dimacs",
+  "start" : 1708414185.798694785,
+  "end" : 1708415317.828398397,
+  "duration" : 1132.029,
+  "pipelines" : [ {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "OK",
+      "solution" : 4.9252507837233044E116,
+      "runtime" : 1067.884
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.192955756,0.815961022,0.000000000,1.000000000,0.284619297,0.074315377,0.186019664,0.123644937,0.148265844,0.027555542,0.905197883,0.000000000,0.186227055,0.042441495,0.011830137,0.034172798,0.014565701,0.017812350,0.220000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.144038471,0.792018073,2.000000000,?,?,?,?,?,?,?",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 60.0,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.485,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.468,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.707
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "timeout",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.425
+  } ],
+  "bestResponse" : {
+    "solver" : "SharpSAT-TD-unweighted/default",
+    "status" : "OK",
+    "solution" : 4.9252507837233044E116,
+    "runtime" : 1067.884
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_154.dimacs",
+  "start" : 1708415317.839026951,
+  "end" : 1708418921.670623934,
+  "duration" : 3603.831,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.03
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.012
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.068
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.031
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.014
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.066
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.023
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.021
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 946.013
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.011
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.002478561,0.119073199,0.002421107,0.004069014,0.002430557,0.002421169,0.002425108,0.002421262,0.002424221,0.100000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.508543531,0.695512025,2.000000000,0.000000000,0.161111111,1.116836879,0.000000000,0.500000000,0.500000000,0.100000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 0.126,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.04,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.023,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.127
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.383
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.011
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_167.dimacs",
+  "start" : 1708418921.671852658,
+  "end" : 1708422535.210077201,
+  "duration" : 3613.538,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.055
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.019
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.011
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.015
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.042
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.016
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.012
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.021
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 946.013
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.011
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,0.000000000,0.000000000,0.000000000,0.000000000,?,0.000000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 2.43,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 2.446,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.472,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 60.0
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "crash"
+      }
+    },
+    "duration_AutoFolio" : 0.357
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.011
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_174.dimacs",
+  "start" : 1708422535.213568422,
+  "end" : 1708426145.001339488,
+  "duration" : 3609.787,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.043
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.022
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.016
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.736
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.047
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.018
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.012
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.068
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.022
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.011
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 937.89
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.021
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.067816349,1.520851196,0.000080552,0.456560197,0.163143023,0.002658578,0.086850559,0.006287243,0.015929828,0.009372384,0.230229330,0.005409540,0.024756922,0.009320904,0.008001407,0.009301042,0.008529079,0.009273359,0.040000000,?,?,?,?,?,?,2171.550000000,0.331695634,611.000000000,3406.000000000,3087.000000000,1365.000000000,2800.000000000,1734.000000000,2220.000000000,23.624299531,0.333621555,5.564648118,34.806811509,33.909717663,14.534798535,31.871376208,18.827076223,24.565273589,5.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.217888228,0.446498969,2.000000000,0.015067291,0.166243655,1.329121409,0.000000000,0.500000000,0.614213198,1.200000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 1.23,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 5.023,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.023,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.068
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.401
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.021
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_179.dimacs",
+  "start" : 1708426145.002473992,
+  "end" : 1708429810.622545326,
+  "duration" : 3665.62,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.015
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.044
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.029
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.016
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.011
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.049
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.018
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.013
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.07
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.021
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 946.011
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.021
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.771866325,0.113861781,0.290061257,0.959509788,0.879297950,0.658655544,0.830070014,0.721183769,0.779787967,0.004339721,1.437583178,0.000000056,0.046950768,0.012828098,0.000003665,0.006957370,0.000016297,0.000967817,0.160000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.570664372,0.755532578,2.000000000,?,?,?,?,?,?,?",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 60.0,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.574,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.548,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.748
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "timeout",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.385
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.021
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_180.dimacs",
+  "start" : 1708429810.624452165,
+  "end" : 1708433475.721238375,
+  "duration" : 3665.096,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.039
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.02
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.015
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.771
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.015
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.03
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.073
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.075
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.026
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.014
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 937.402
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.02
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.192955756,0.815961022,0.000000000,1.000000000,0.284619297,0.074315377,0.186019664,0.123644937,0.148265844,0.027555542,0.905197883,0.000000000,0.186227055,0.042441495,0.011830137,0.034172798,0.014565701,0.017812350,0.220000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.143704390,0.752233145,2.000000000,?,?,?,?,?,?,?",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 60.0,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.465,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.442,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.678
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "timeout",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.348
+  } ],
+  "bestResponse" : {
+    "solver" : "SharpSAT-TD-unweighted/default",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.02
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_181.dimacs",
+  "start" : 1708433475.722310799,
+  "end" : 1708437139.480490935,
+  "duration" : 3663.758,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.068
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.02
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.016
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.923
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.067
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.017
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.074
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.083
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 937.998
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.023
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.760437326,0.114087678,0.211175461,0.899514074,0.843582347,0.659848340,0.818321176,0.720559236,0.779153812,0.005686082,0.287124731,0.003792301,0.015923608,0.006916613,0.004284493,0.006173675,0.004752897,0.005445119,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.664047400,0.995462816,2.000000000,?,?,?,?,?,?,?",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 60.0,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 0.069,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.075,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.085
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "timeout",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.341
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.023
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_182.dimacs",
+  "start" : 1708437139.481988917,
+  "end" : 1708440771.637079533,
+  "duration" : 3632.155,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.043
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.022
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.02
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.011
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.076
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.017
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.017
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.02
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 946.014
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.011
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.858424425,0.022455258,0.817801831,0.954996557,0.881646152,0.837155457,0.867765335,0.845582819,0.855464299,0.000193854,7.846267530,0.000000000,0.022034051,0.000031620,0.000000001,0.000002018,0.000000008,0.000000105,3.680000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.100000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.765581495,0.950296351,2.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,17.880000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 19.581,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 1.823,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 3.705,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 5.406
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.392
+  } ],
+  "bestResponse" : {
+    "solver" : "ExactMC/ExactMC_BE.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.011
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_187.dimacs",
+  "start" : 1708440771.638030084,
+  "end" : 1708444381.422897911,
+  "duration" : 3609.784,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.041
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.016
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.062
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.039
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.016
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.068
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.024
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.023
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 937.29
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.025
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.070488569,1.408714146,0.000036798,0.450303206,0.175888448,0.003445986,0.086749130,0.008962048,0.022999119,0.009662864,0.311245299,0.007110887,0.033079082,0.009322208,0.008381542,0.009303427,0.008629335,0.009285582,0.020000000,?,?,?,?,?,?,2497.058823529,0.346335034,944.000000000,3578.000000000,3554.000000000,1140.000000000,3267.000000000,1734.000000000,2820.000000000,23.544044721,0.312213116,9.521052632,33.165455562,33.142374789,10.669491525,29.458013010,16.817762399,25.254609929,5.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.229216804,0.451184774,2.000000000,0.022207707,0.156250000,1.483239697,0.000000000,0.500000000,0.687500000,1.140000000",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 1.187,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 5.025,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.036,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 0.056
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "ok",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.433
+  } ],
+  "bestResponse" : {
+    "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.025
+  }
+}, {
+  "cnfFile" : "/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_190.dimacs",
+  "start" : 1708444381.424606289,
+  "end" : 1708448049.243623171,
+  "duration" : 3667.819,
+  "pipelines" : [ {
+    "pipelineName" : "PER_SET",
+    "solverResponses" : [ {
+      "solver" : "d4/default.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.012
+    }, {
+      "solver" : "dpmcpre/1pre1mp1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 1.04
+    }, {
+      "solver" : "ExactMC/ExactMC_Arjun.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 2.021
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.016
+    }, {
+      "solver" : "TwG/1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3.011
+    }, {
+      "solver" : "gpmc/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 4.011
+    }, {
+      "solver" : "dpmcpre/1pre1mp0",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 24.067
+    }, {
+      "solver" : "gpmc_r2/track1",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 28.012
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 31.017
+    }, {
+      "solver" : "ExactMC/ExactMC_BE.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 39.011
+    }, {
+      "solver" : "Narsimha-track1v-51fd045537919d/track1_conf2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 128.069
+    }, {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 246.082
+    }, {
+      "solver" : "c2d/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 326.011
+    }, {
+      "solver" : "Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 351.012
+    }, {
+      "solver" : "TwG/2.sh",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 946.012
+    } ]
+  }, {
+    "pipelineName" : "PER_INSTANCE",
+    "solverResponses" : [ {
+      "solver" : "SharpSAT-TD-unweighted/default",
+      "status" : "TIMEOUT",
+      "solution" : null,
+      "runtime" : 3601.022
+    } ],
+    "featureVector" : {
+      "vector" : "?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.175641021,1.310323811,0.000057563,0.999999238,0.484413277,0.009536299,0.125101779,0.085295396,0.096802293,0.163514512,0.713840755,0.000000000,0.434861023,0.254844660,0.001245782,0.242880774,0.022752702,0.239280347,1.240000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.040000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.158524162,0.450596192,2.000000000,?,?,?,?,?,?,?",
+      "runtime" : {
+        "Feature-core" : -1.0,
+        "Satzilla-UNIT" : -1.0,
+        "Satzilla-DIA" : -1.0,
+        "Satzilla-LP" : 60.0,
+        "Feature-tree" : -1.0,
+        "Feature-cyclo" : -1.0,
+        "Satzilla-CL" : 1.01,
+        "Satzilla-LS" : -1.0,
+        "Satzilla-BASE" : -1.0,
+        "Feature-basic" : -1.0,
+        "Satzilla-LOBJOIS" : 2.958,
+        "Feature-constraints" : -1.0,
+        "Feature-valid" : -1.0,
+        "Feature-clause" : -1.0,
+        "Feature-dense" : -1.0,
+        "Satzilla-SP" : 2.255
+      },
+      "status" : {
+        "Feature-core" : "other",
+        "Satzilla-UNIT" : "other",
+        "Satzilla-DIA" : "other",
+        "Satzilla-LP" : "timeout",
+        "Feature-tree" : "other",
+        "Feature-cyclo" : "other",
+        "Satzilla-CL" : "ok",
+        "Satzilla-LS" : "other",
+        "Satzilla-BASE" : "other",
+        "Feature-basic" : "other",
+        "Satzilla-LOBJOIS" : "ok",
+        "Feature-constraints" : "other",
+        "Feature-valid" : "other",
+        "Feature-clause" : "other",
+        "Feature-dense" : "other",
+        "Satzilla-SP" : "ok"
+      }
+    },
+    "duration_AutoFolio" : 0.366
+  } ],
+  "bestResponse" : {
+    "solver" : "SharpSAT-TD-unweighted/default",
+    "status" : "TIMEOUT",
+    "solution" : null,
+    "runtime" : 3601.022
+  }
+} ]

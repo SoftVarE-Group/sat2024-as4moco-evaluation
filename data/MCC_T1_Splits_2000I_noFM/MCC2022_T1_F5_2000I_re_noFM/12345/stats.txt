@@ -1,0 +1,11 @@
+[INFO][validate.py:83] PAR1: 466.6866
+[INFO][validate.py:84] PAR10: 2122.1611
+[INFO][validate.py:85] Timeouts: 7 / 137
+[INFO][validate.py:86] Presolved during feature computation: 0 / 137
+[INFO][validate.py:87] Solved: 130 / 137
+[INFO][validate.py:88] Solved in pre-schedule: 56 / 130
+[INFO][validate.py:89] As good as oracle: 16 / 130
+[INFO][validate.py:90] Unsolvable (removed): 23 / 160
+[INFO][validate.py:103] Oracle: 241.2385
+[INFO][validate.py:105] Single Best: 3202.4169
+[INFO][validate.py:107] Normalized Score: 0.6352

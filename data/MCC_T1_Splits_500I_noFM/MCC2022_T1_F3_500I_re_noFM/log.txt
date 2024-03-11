@@ -1,0 +1,396 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Git dependency: Added 'FeatureExtraction' for 'as4moco'
+Git dependency: Local version 'd56236e' is not equal to target 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Updating to version 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Update started 'https://github.com/RSD6170/feature-model-batch-analysis.git' at version 'origin/main'
+Git dependency: Update finished (526 ms)
+> Task :FeatureExtraction:compileJava UP-TO-DATE
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :FeatureExtraction:processResources NO-SOURCE
+> Task :FeatureExtraction:classes UP-TO-DATE
+> Task :FeatureExtraction:jar UP-TO-DATE
+
+> Task :run
+Autofolio loaded successfully!
+Initialized Feature Extraction
+Read Pre-Schedule
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@71601ecc
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2048.0]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@1cdf562d
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[3.321888768E9]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@466240d6
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.204224E7]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.466532652,0.020973096,0.458621947,0.480324092,0.478689606,0.458635098,0.478504231,0.458655200,0.458781587,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.323529412,0.323529412,0.000000000,0.000000000,0.000000000,8.627800000,0.164153852,9.000000000,7.000000000,10.000000000,1.447964643,0.118948487,1.000000000,0.000000000,0.200000000,0.000000000,0.000000000,8.629600000,0.164696984,9.000000000,7.000000000,10.000000000,1.450123056,0.117317150,1.000000000,0.000000000,0.220000000,0.944676961,0.991487944,1.240000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3a1ee181
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@6f4f805b
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.740830441712E12]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.465528736,0.020306345,0.458609989,0.479457038,0.478482356,0.458610725,0.478479352,0.458612543,0.458618705,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.087837838,0.324324324,0.000000000,0.000000000,0.000000000,17.768600000,0.115914062,18.000000000,15.000000000,20.000000000,1.462089168,0.078295867,1.000000000,0.000000000,0.520000000,0.000000000,0.000000000,17.747900000,0.117410498,18.000000000,15.000000000,20.000000000,1.462367709,0.077407329,1.000000000,0.000000000,0.440000000,0.879337302,0.988512277,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@214bd360
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.053802191,0.638085228,0.004675867,0.156230446,0.097861622,0.013233637,0.076121556,0.025713365,0.050486383,0.004421033,0.219480465,0.001736936,0.007347288,0.005591697,0.003414848,0.005065814,0.003775048,0.004346781,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.000000000,0.000000000,0.040000000,0.340000000,0.340000000,0.000000000,4.300600000,0.395234077,10.117700000,0.215357906,10.000000000,7.000000000,13.000000000,1.675669278,0.300832707,0.884958436,0.113331449,0.600000000,3.432800000,0.437321138,10.139900000,0.216313895,10.000000000,7.000000000,13.000000000,1.303161018,0.441352306,0.854610801,0.116590540,1.020000000,0.622957333,0.770112739,1.800000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@ac6ff89
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[27.0]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@69077199
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@775c6cc1
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3f090ce5
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@2327f58a
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1.000000000,0.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,0.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.064102564,0.205128205,0.717948718,0.769230769,0.769230769,0.000000000,0.000000000,0.000000000,21.620700000,0.167054387,22.000000000,17.000000000,26.000000000,2.745733959,0.094819680,1.000000000,0.000000000,0.280000000,0.000000000,0.000000000,21.554600000,0.169387297,21.000000000,17.000000000,26.000000000,2.737198232,0.095874602,1.000000000,0.000000000,0.260000000,1.000000000,1.000000000,0.560000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@29958975
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.214819892986E12]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.284949985,0.634597267,0.000839925,1.000000000,0.487342325,0.041434603,0.401161460,0.118975119,0.314227644,0.088908367,0.754032444,0.003828898,0.811298920,0.154089810,0.045049149,0.119515152,0.054801343,0.068648728,0.020000000,?,?,?,?,?,?,308.000000000,0.000000000,308.000000000,308.000000000,308.000000000,308.000000000,308.000000000,308.000000000,308.000000000,2.321428571,0.000000000,2.321428571,2.321428571,2.321428571,2.321428571,2.321428571,2.321428571,2.321428571,0.020000000,0.000000000,0.000000000,0.004048583,0.004048583,0.004048583,-0.000000000,16.703717335,0.421793555,163.312108944,0.055252719,163.000000000,152.000000000,175.000000000,0.585099026,0.217656108,0.800257239,0.034781954,2.660000000,26.949624866,0.152848088,163.534119328,0.055245304,164.000000000,152.000000000,175.000000000,0.336748113,0.276720306,0.825925990,0.028395332,3.480000000,0.098332209,0.322716846,1.140000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@5308f7a7
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@10e8a19d
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@25804eeb
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@5dc5cddd
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@ca0acd7
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1.000000000,0.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,0.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,1.000000000,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.068965517,0.229885057,0.655172414,0.747126437,0.747126437,0.000000000,0.000000000,0.000000000,23.970200000,0.160155373,24.000000000,19.000000000,29.000000000,2.744507283,0.089047080,1.000000000,0.000000000,0.320000000,0.000000000,0.000000000,23.949600000,0.159639948,24.000000000,19.000000000,29.000000000,2.740317695,0.089722754,1.000000000,0.000000000,0.280000000,1.000000000,1.000000000,0.640000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@48b261bc
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@5e5403c6
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3a11ae98
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[4.835703278458517E24]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3f814db1
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.286743487,0.454832555,0.000152098,0.963825183,0.450101198,0.193563716,0.378971588,0.210241143,0.249669277,0.038870101,0.449003209,0.000000000,0.067996815,0.057975687,0.017743382,0.056039169,0.024936221,0.031498578,0.100000000,?,?,?,?,?,?,784.620689655,0.879108411,246.000000000,3118.000000000,1814.000000000,295.000000000,1159.000000000,353.000000000,412.000000000,77.853605913,0.302280661,40.164305949,139.305402426,114.334771355,51.871794872,97.682835821,59.961325967,71.836017570,5.000000000,0.000000000,0.221297108,0.287467134,0.287467134,0.287467134,0.020000000,104.313725490,0.259798650,424.750700280,0.032941330,425.000000000,407.000000000,443.000000000,0.576370137,0.273468117,0.793313198,0.024267830,2.380000000,116.364741641,0.125732646,423.951367781,0.034006373,424.000000000,406.000000000,442.000000000,0.187514762,0.362361907,0.800380307,0.018976295,3.120000000,0.283237702,0.963550240,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@699ddf88
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.0]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.834310661,0.217673398,0.317657097,0.955805821,0.928049536,0.334108271,0.916520467,0.878521119,0.900606594,0.059743437,1.087656067,0.002975956,0.360514769,0.135489540,0.013404520,0.061989624,0.016384603,0.038117844,0.180000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.277777778,0.277777778,0.277777778,0.000000000,4.655700000,0.314473487,65.452000000,0.136730849,66.000000000,54.000000000,77.000000000,3.703891801,0.175000876,0.990739612,0.008296993,1.880000000,5.052600000,0.402841827,65.398400000,0.135297461,66.000000000,54.000000000,76.000000000,3.094921601,0.391397980,0.992215451,0.009041149,2.420000000,0.665320928,0.986688166,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@2e4277a3
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.473686309,0.535909852,0.000307532,0.999993078,0.813995170,0.097914160,0.670388842,0.264680395,0.493185893,0.031850759,1.119062096,0.000008404,0.208979871,0.070693417,0.003790133,0.042551193,0.008605113,0.021127002,0.020000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.000000000,0.000000000,0.000000000,0.161885246,0.805327869,0.020000000,10.000750563,0.695822573,129.854140605,0.064637954,130.000000000,119.000000000,141.000000000,0.919020950,0.212624256,0.829691483,0.034318922,2.760000000,14.184323331,0.376822786,129.598285364,0.064624153,129.000000000,119.000000000,140.000000000,0.511806939,0.302200501,0.838561114,0.029857285,3.240000000,0.520437874,0.989281150,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@7d9cfe9d
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2097152.0]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.325641305,0.519674528,0.013951450,0.604000689,0.596292534,0.150921918,0.494231153,0.228530702,0.238105503,0.383857590,0.083715692,0.279596313,0.412770036,0.410592105,0.317459354,0.407633203,0.367592639,0.397329573,0.020000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.015873016,0.015873016,0.000000000,4.490700000,0.587671131,15.098000000,0.171923577,15.000000000,12.000000000,18.000000000,0.617547785,0.348373771,0.709671827,0.153469389,1.220000000,2.270500000,0.650281704,15.075200000,0.173595620,15.000000000,12.000000000,18.000000000,0.307515916,0.420095811,0.654805491,0.135934989,2.320000000,0.199066402,0.513812562,1.120000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@66135f06
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.092668940,0.484407707,0.000000280,0.118038402,0.118038402,0.000000818,0.118038402,0.110544225,0.110544225,0.000000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.081081081,0.081081081,0.000000000,2.978500000,2.000849182,6.245300000,0.392171719,6.000000000,3.000000000,9.000000000,1.776563238,0.386501708,0.689281356,0.356595491,0.280000000,1.408500000,3.106540250,6.282400000,0.385992853,7.000000000,3.000000000,9.000000000,1.655999826,0.371628729,0.624136012,0.389861258,0.240000000,0.575349550,0.916428364,0.420000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@74ae4cde
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.722072304,0.148735842,0.408861412,1.000000000,0.832842302,0.592529281,0.779275654,0.650337190,0.731996109,0.010034114,4.431176233,0.000000000,0.378331469,0.018842591,0.000000024,0.001642774,0.000002643,0.000066462,0.400000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.000000000,0.000000000,0.000000000,0.103144654,0.549685535,0.180000000,20.799445471,0.374843005,285.524029575,0.050159214,285.000000000,267.000000000,304.000000000,7.632295774,0.187096249,0.987765633,0.003643936,2.220000000,35.104878049,0.248172858,285.634146341,0.051293694,286.000000000,266.000000000,304.000000000,4.697338331,0.367094703,0.992063099,0.003204250,2.580000000,0.467751386,0.960881324,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@772f2d92
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.213590027,0.831530695,0.000000000,1.000000000,0.459168840,0.066401820,0.237813577,0.114220714,0.148280036,0.031605070,0.946401426,0.000000000,0.259423234,0.043262810,0.012498821,0.035792764,0.016742144,0.028549657,0.340000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.008386448,0.033545790,0.134183160,0.542770882,0.542770882,0.020000000,123.374449339,0.246129902,635.775330396,0.029368137,637.000000000,610.000000000,658.000000000,0.664276991,0.309973128,0.839417732,0.019449535,2.340000000,160.690036900,0.075580944,637.892988930,0.027441764,636.000000000,617.000000000,660.000000000,0.286401828,0.278870548,0.857417669,0.011781379,2.780000000,0.117702236,0.585117592,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@2a66a2bf
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.303459137,0.583030130,0.001381365,0.581048677,0.573261016,0.076895127,0.461755651,0.216204957,0.228318339,0.374137127,0.069093961,0.299918245,0.400632313,0.398203887,0.342387482,0.395645065,0.353254588,0.386671074,0.040000000,?,?,?,?,?,?,873.500000000,0.409273039,516.000000000,1231.000000000,1231.000000000,516.000000000,1231.000000000,516.000000000,1231.000000000,8.655117476,0.245864449,6.527131783,10.783103168,10.783103168,6.527131783,10.783103168,6.527131783,10.783103168,0.040000000,0.000000000,0.000000000,0.000000000,0.023391813,0.023391813,0.000000000,7.069300000,0.467355305,19.660700000,0.153080239,20.000000000,16.000000000,24.000000000,0.545958147,0.343919303,0.703864940,0.134474971,1.940000000,4.428251121,0.450679917,19.642706410,0.154542130,20.000000000,16.000000000,23.000000000,0.261228230,0.413227363,0.657360500,0.119040954,2.760000000,0.172354971,0.468982108,1.500000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3e239f3b
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@ad3532d
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.809370704,0.020915830,0.764239001,0.865643425,0.831442232,0.788299320,0.820823912,0.797357109,0.808908142,0.000000044,5.854329396,0.000000000,0.000004401,0.000000037,0.000000000,0.000000003,0.000000000,0.000000000,2.220000000,?,?,?,?,?,?,1004.320000000,0.829654572,230.000000000,3883.000000000,1870.000000000,386.000000000,1023.000000000,468.000000000,843.000000000,49.096719229,0.136100193,39.098445596,61.087183958,59.351885099,39.783042394,55.221739130,44.174000000,47.109481916,5.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.136666667,2.960000000,22.559766764,5.108418268,407.895043732,0.066727679,410.000000000,388.000000000,430.000000000,27.379478983,0.121094164,0.999260772,0.011018296,2.120000000,29.899135447,0.158509356,408.570605187,0.036273805,410.000000000,388.000000000,426.000000000,32.366518539,0.083896881,0.999583825,0.000286564,2.220000000,0.725940741,0.916886076,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3d2fc23b
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.714559006,0.083585610,0.375065383,0.817487314,0.771983767,0.641928525,0.749425507,0.697379442,0.729654751,0.139188164,0.080786058,0.114390951,0.164255249,0.153367240,0.123591122,0.147614630,0.129864475,0.140339611,0.040000000,?,?,?,?,?,?,1980.212121212,0.157575836,1581.000000000,2879.000000000,2421.000000000,1631.000000000,2160.000000000,1722.000000000,1933.000000000,19.642935879,0.080953922,17.362500000,23.233437083,21.984174085,17.815830316,20.748451053,18.188559322,19.374215630,5.000000000,0.000000000,0.000000000,0.014598540,0.031021898,0.045620438,-0.000000000,12.491179201,0.659080662,181.404363974,0.066211305,181.000000000,167.000000000,197.000000000,1.562715333,0.179041224,0.962501106,0.017906084,2.640000000,8.058417997,0.263095108,181.261248186,0.064128566,181.000000000,167.000000000,196.000000000,0.888033711,0.318235563,0.954087821,0.008778217,2.900000000,0.433462547,0.647856790,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@840eb2b
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.846347216,0.070757915,0.461211967,1.000000000,0.885219512,0.784742913,0.877285115,0.802222917,0.856142382,0.000877396,10.801290356,0.000000000,0.137587393,0.000316372,0.000000000,0.000143143,0.000000017,0.000004826,5.940000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.220000000,0.000000000,0.000000000,0.000000000,0.000000000,0.015174507,1.320000000,139.586206897,3.127191051,1250.258620690,0.135690484,1270.500000000,1229.000000000,1308.000000000,15.921662571,0.371405924,0.998041201,0.014918782,2.240000000,149.336842105,0.246061164,1255.842105260,0.106451586,1269.000000000,1222.000000000,1310.000000000,9.660219894,0.358666631,0.998130677,0.001451849,2.360000000,0.563831772,0.669269539,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@72b80f9a
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@42de61ce
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.700420655,0.171251642,0.136083787,0.946019745,0.850819941,0.634385487,0.714994880,0.675287209,0.698082392,0.081559833,0.833379073,0.000514855,0.242306657,0.192402833,0.008788974,0.125001777,0.028977555,0.054728144,0.020000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.063559322,0.063559322,0.063559322,0.000000000,0.780000000,1.784490923,60.853200000,0.105750330,61.000000000,53.000000000,69.000000000,3.478114473,0.199730616,0.978942103,0.011418226,1.840000000,1.793200000,1.096571716,60.862000000,0.105977223,61.000000000,53.000000000,69.000000000,2.234583305,0.494639262,0.982531815,0.011741523,2.680000000,0.622182564,0.990535219,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@6aba3f87
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.862060488,0.202426367,0.023900574,1.000000000,0.995180615,0.628343531,0.986535853,0.794874039,0.941272932,0.050141394,1.295143762,0.000006847,0.405763135,0.154038635,0.000861175,0.073573483,0.003286413,0.020642172,0.140000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.011162791,0.036279070,0.062325581,0.062325581,0.062325581,0.020000000,10.226686884,9.961314559,443.926459439,0.045203761,444.000000000,423.000000000,464.000000000,6.950263523,0.100334812,0.994686937,0.027574210,2.360000000,7.903846154,0.174864496,442.630341880,0.035087284,442.000000000,423.000000000,462.000000000,5.314096366,0.255432173,0.995532384,0.001051911,2.700000000,0.229304520,0.626815255,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@4f59b07e
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.128029588,1.524320026,0.000001043,1.000000000,0.144883399,0.000513121,0.093296036,0.083960415,0.085747985,0.180351590,0.596626495,0.000000003,0.499039814,0.241210304,0.000338253,0.239960168,0.072788147,0.237035694,0.340000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.000000000,0.000000000,0.000000000,0.326594090,0.652255054,0.040000000,12.573487032,2.970102700,951.198847262,0.056616738,954.000000000,932.000000000,977.000000000,1.220724940,0.143667127,0.977562871,0.035054221,2.260000000,51.951585977,0.220735017,951.759599332,0.044144630,954.000000000,932.000000000,974.000000000,1.259105337,0.278469962,0.996882787,0.007161316,2.780000000,0.135565500,0.490107334,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@274d5872
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[6.345679961356086E21]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.859535623,0.000003308,0.859520144,0.859564042,0.859538493,0.859533837,0.859536799,0.859534466,0.859535359,0.004982207,0.000022760,0.004981866,0.004983111,0.004982284,0.004982079,0.004982253,0.004982152,0.004982212,0.040000000,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.020000000,0.000000000,0.000000000,0.056241427,0.319615912,0.319615912,0.020000000,3.624825012,6.516872174,287.111059263,0.052739359,288.000000000,269.000000000,305.000000000,5.742142611,0.146254545,0.986034901,0.016749656,2.440000000,17.930978481,0.289066716,287.011368250,0.048028384,287.000000000,270.000000000,305.000000000,7.213344695,0.131012077,0.991485579,0.003117366,2.720000000,0.859284106,0.997831038,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@7812fc23
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Error in Satzilla SP
+Error in Satzilla UNIT
+Timeout in Satzilla LS
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-0.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@77711d29
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.403358501,0.564969788,0.000067117,0.934860406,0.703059728,0.082107517,0.595247912,0.205739498,0.412154296,0.089103599,0.628007205,0.005025721,0.298810573,0.175676080,0.029437027,0.120462758,0.046091072,0.076106542,0.000000000,?,?,?,?,?,?,3933.882352941,0.016160820,3873.000000000,4134.000000000,4005.000000000,3875.000000000,3966.000000000,3888.000000000,3908.000000000,24.307845742,0.041400747,22.410493827,27.095065312,25.794080762,23.281170483,24.569522832,23.796938776,24.234751410,5.000000000,0.000000000,0.000000000,0.002557545,0.219948849,0.219948849,0.000000000,13.678774819,0.309969432,87.158688626,0.078514222,87.000000000,78.000000000,96.000000000,0.955767326,0.207025035,0.856957531,0.039470191,2.600000000,11.249660787,0.288630094,87.001809136,0.078364900,87.000000000,78.000000000,96.000000000,0.384158093,0.375133257,0.846347116,0.037988227,3.280000000,0.334589313,0.622863006,2.000000000,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@72d3ea05
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Closing Autofolio!
+
+> Task :FeatureExtraction:run FAILED
+6 actionable tasks: 3 executed, 3 up-to-date

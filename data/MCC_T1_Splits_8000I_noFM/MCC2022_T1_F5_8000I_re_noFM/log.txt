@@ -1,0 +1,874 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Git dependency: Added 'FeatureExtraction' for 'as4moco'
+Git dependency: Local version 'd56236e' is not equal to target 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Updating to version 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Update started 'https://github.com/RSD6170/feature-model-batch-analysis.git' at version 'origin/main'
+Git dependency: Update finished (555 ms)
+> Task :FeatureExtraction:compileJava UP-TO-DATE
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :FeatureExtraction:processResources NO-SOURCE
+> Task :FeatureExtraction:classes UP-TO-DATE
+> Task :FeatureExtraction:jar UP-TO-DATE
+
+> Task :run
+Autofolio loaded successfully!
+Initialized Feature Extraction
+Read Pre-Schedule
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_012.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[4.947802324992E14]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_020.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,5140.000000000,13874.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.020000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[9.588221870930865E22]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_021.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[7.846378259878948E56]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_024.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[8.796093022208E12]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_025.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1202.000000000,4102.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[9.953536480433252E119]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_028.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,63.000000000,383.000000000,62.000000000,320.000000000,0.016129032,0.196875000,0.000000000,0.193750000,0.375000000,0.649786290,0.200000000,1.000000000,0.830523691,0.080645161,0.000000000,0.080645161,0.080645161,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.080645161,0.301993377,0.050000000,0.100000000,0.667431708,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.014112903,0.679285339,0.003125000,0.031250000,1.600672356,0.175000000,0.018245968,0.250270755,0.012500000,0.021875000,0.000000000,0.118125000,0.095238095,0.084375000,0.121875000,0.325082973,0.710378510,0.076314885,0.692307692,0.873015873,0.325082973,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.466617073,0.021056010,0.458609790,0.480309870,0.478642520,0.458611663,0.478481631,0.458615095,0.458772349,0.000000000,16.344262295,0.184013207,11.000000000,21.000000000,2.370078860,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[4.398046511104E12]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_032.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1282.000000000,4498.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@7489e988
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[3.721928700008853E129]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_034.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,40.000000000,296.000000000,39.000000000,256.000000000,0.025641026,0.156250000,0.000000000,0.152343750,0.500000000,0.577350269,0.333333333,1.000000000,0.562335145,0.153846154,0.000000000,0.153846154,0.153846154,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.153846154,0.054126588,0.125000000,0.156250000,0.271189373,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.019230769,0.054126588,0.015625000,0.019531250,0.271189373,0.125000000,0.052884615,0.170454545,0.042968750,0.066406250,0.000000000,0.229003906,0.088299698,0.191406250,0.246093750,0.989558798,0.614168429,0.104261199,0.541666667,0.742857143,2.044228519,0.020000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.489316310,0.001220348,0.489122621,0.491394963,0.489193623,0.489123411,0.489163623,0.489125342,0.489145210,0.000000000,3.763157895,0.112975485,3.000000000,4.000000000,0.547412469,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@51d12eb
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.7528422464E10]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_035.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.2379400392853803E27]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_039.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.2089258196146292E24]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_047.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2268.0]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_054.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,2785.000000000,5554.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.040000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@360dede
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[Infinity]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_061.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.125899906842624E15]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_064.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,21813.000000000,58343.000000000,72.000000000,291.000000000,301.958333333,199.491408935,0.160000000,0.247422680,0.436139748,1.039538535,0.000000000,1.000000000,1.105801461,0.031357388,0.366891496,0.027777778,0.125000000,0.532868959,0.000000000,0.817869416,0.986254296,-0.000000000,0.031357388,1.024450365,0.006872852,0.144329897,2.212250714,0.678503550,0.352930930,0.000000000,1.000000000,2.124264546,0.019663994,1.292174289,0.000000000,0.106529210,2.386437512,0.608247423,0.034364261,0.849182614,0.006872852,0.109965636,-0.000000000,0.042583342,0.693445129,0.006872852,0.182130584,3.132668255,0.225930876,0.625953020,0.048979592,0.666666667,3.152904738,-0.000000000,0.860148095,0.254205731,0.089072104,1.000000000,1.000000000,0.551195011,1.000000000,0.788328398,1.000000000,0.293753076,0.917055388,-0.000000000,0.937499964,0.668156119,0.000000002,0.478465479,0.072892507,0.244405015,0.000000000,3.830985915,0.097824520,3.000000000,4.000000000,0.454319469,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@6b149c46
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[6.953694693511856E124]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_065.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[4.7262168E7]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_067.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.1068046444225731E20]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_068.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,3698.000000000,12146.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.080000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@214bd360
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[3.638107732202354E63]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_069.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[4.138810676E11]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_070.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.5205389326E10]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_073.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.1425780621440715E33]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_081.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,825.000000000,20303.000000000,682.000000000,19336.000000000,0.209677419,0.050010343,0.120000000,0.035270997,0.294993794,1.545930730,0.000000000,1.000000000,0.606562691,0.005969447,1.641960345,0.002932551,0.046920821,0.738822875,0.000000000,0.711625983,0.711625983,0.000000000,0.005969447,0.577082660,0.003309888,0.011326024,1.940272273,0.107227712,0.154117324,0.000000000,0.611940299,1.836565361,0.004571723,0.853274759,0.001654944,0.011274307,2.156415942,0.758378155,0.005422551,0.610999817,0.003413322,0.019393877,0.020000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-512.000000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-0.000000000,20.060000000,0.462684294,0.548979628,0.246872387,0.888828156,0.809256678,0.258673226,0.780456149,0.265476942,0.273321503,0.000262433,0.811847484,-0.000000000,0.000648230,0.000503034,0.000000000,0.000452940,0.000000000,0.000336630,2.300000000,4.281938326,0.105079385,4.000000000,5.000000000,0.594774687,0.360000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@75cae73e
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[3.25433E11]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_084.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,192959.000000000,692368.000000000,30506.000000000,137386.000000000,5.325280273,4.039581908,11.220000000,0.222045914,0.569690551,0.770420076,0.000000000,1.000000000,1.375634581,0.000095077,0.773328048,0.000065561,0.006490526,1.222161321,0.000000000,0.569781492,0.753461051,0.020000000,0.000095077,0.892484561,0.000050951,0.001907036,2.301907787,0.215944925,0.180226988,0.000000000,1.000000000,2.719473517,0.000050225,0.820192123,0.000007279,0.000691482,2.189289961,0.599551628,0.000122320,1.361133105,0.000036394,0.002321925,1.600000000,0.000206602,1.514003204,0.000014558,0.008610775,3.536634548,0.189377415,0.478745264,0.001961915,0.666666667,3.218333682,9.160000000,0.479273888,0.535779566,0.000001861,1.000000000,0.808615388,0.095665025,0.704312343,0.274283327,0.468833919,0.052808923,0.739855036,-0.000000000,0.237544218,0.099399689,0.000378841,0.093121610,0.014160218,0.053015519,5.380000000,8.478191911,0.130796506,6.000000000,12.000000000,1.458769755,10.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@185f0dc5
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[5.363073716E11]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_086.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,596.000000000,30303.000000000,560.000000000,28919.000000000,0.064285714,0.047857810,0.420000000,0.019364432,0.991158029,0.031651368,0.666666667,1.000000000,0.283147236,0.005652117,1.291325606,0.003571429,0.055357143,0.304161964,0.000000000,0.923406757,0.923406757,0.020000000,0.005652117,0.182351864,0.003319617,0.008160725,4.654071682,0.216705228,0.050779947,0.106145251,0.380281690,2.989492607,0.003297881,0.176613269,0.002005602,0.004910267,4.158341988,0.923406757,0.006327155,0.178537252,0.003561672,0.010028009,-0.000000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-512.000000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-0.000000000,20.060000000,0.784354175,0.029151623,0.723011482,0.847540868,0.815535946,0.757223980,0.800412876,0.767768866,0.783314940,0.000000223,4.324556942,0.000000000,0.000011705,0.000000373,0.000000000,0.000000052,0.000000000,0.000000003,0.740000000,3.000000000,0.000000000,3.000000000,3.000000000,-0.000000000,0.460000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@31a14ae4
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[16.0]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_103.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,893.000000000,3531.000000000,81.000000000,801.000000000,10.024691358,3.408239700,0.000000000,0.101123596,0.950561798,0.221415971,0.000000000,1.000000000,0.244436498,0.032875572,1.092949181,0.024691358,0.197530864,0.244436498,0.000000000,0.943820225,0.943820225,0.000000000,0.032875572,0.233406189,0.011235955,0.036204744,0.964962923,0.371404245,0.094912175,0.111111111,0.428571429,0.964962923,0.010681093,0.183664099,0.006242197,0.012484395,0.964962923,0.101123596,0.081009849,0.309964616,0.009987516,0.089887640,0.000000000,0.033946331,2.032541005,0.009987516,0.349563046,1.567920148,0.161592261,0.764800239,0.007930859,0.564102564,1.567920148,0.040000000,0.760947148,0.199404847,0.335327737,0.835101216,0.835054528,0.335462601,0.835040033,0.793218857,0.793270592,0.026635542,1.319825487,0.006487583,0.123755900,0.123746973,0.006492016,0.022501215,0.006493148,0.022495755,0.000000000,3.100000000,0.096774194,3.000000000,4.000000000,0.325082973,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@755ccd80
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[362880.0]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_108.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,42845.000000000,114782.000000000,522.000000000,2490.000000000,81.078544061,45.097188755,0.660000000,0.209638554,0.616515609,0.750331298,0.000000000,1.000000000,1.090203589,0.004537691,0.783385296,0.003831418,0.053639847,0.521712821,0.000000000,0.887148594,0.944176707,-0.000000000,0.004537691,1.298421870,0.000803213,0.047389558,2.490370556,0.535149629,0.366550285,0.000000000,1.000000000,2.456053433,0.002785856,1.470747859,0.000000000,0.019678715,2.781645043,0.598795181,0.007733616,0.910918117,0.000803213,0.040562249,-0.000000000,0.009670812,1.008863913,0.000803213,0.059437751,3.908000345,0.152319180,0.793155677,0.013785598,0.666666667,3.198803942,0.080000000,0.863676552,0.270313747,0.032702854,1.000000000,1.000000000,0.467083503,1.000000000,0.872083690,0.972849325,0.098785745,1.262825345,0.000000016,0.576402551,0.301893760,0.000758259,0.134021299,0.012034020,0.041706148,0.040000000,5.000000000,0.103675264,4.000000000,6.000000000,0.768233927,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@4e55c5d
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.8535265087098876E154]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_111.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,10996.000000000,35832.000000000,37.000000000,300.000000000,296.189189189,118.440000000,0.220000000,0.123333333,0.500000000,0.258198890,0.333333333,1.000000000,0.612869452,0.102702703,0.105263158,0.081081081,0.108108108,0.500402424,0.000000000,0.000000000,0.200000000,-0.000000000,0.102702703,1.194014002,0.040000000,0.400000000,1.160242508,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.055405405,1.150157978,0.023333333,0.200000000,1.160242508,0.550000000,0.027927928,0.789446519,0.016666667,0.103333333,-0.000000000,0.307333333,0.241395709,0.163333333,0.363333333,1.054920168,0.692426538,0.138393704,0.599183673,0.809341118,1.054920168,0.040000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.092668940,0.484407707,0.000000280,0.118038402,0.118038402,0.000000818,0.118038402,0.110544225,0.110544225,0.000000000,3.166666667,0.117687788,3.000000000,4.000000000,0.450561209,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@415bd7a4
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[4.249103942534137E183]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_127.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,631.000000000,34332.000000000,600.000000000,33071.000000000,0.051666667,0.038130084,0.560000000,0.018142784,0.993905919,0.023699875,0.750000000,1.000000000,0.242472786,0.005398335,1.463938935,0.003333333,0.065000000,0.266712115,0.000000000,0.935260500,0.935260500,-0.000000000,0.005398335,0.191609290,0.002660942,0.007619969,4.743329833,0.198688566,0.046911366,0.090047393,0.371428571,2.916512664,0.003117535,0.176498329,0.001572375,0.004444982,4.216604175,0.935260500,0.005876246,0.190904622,0.002630704,0.008769012,0.020000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-512.000000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-0.000000000,20.080000000,0.820781855,0.022157532,0.767053579,0.884408134,0.843949640,0.798113050,0.832605493,0.808215832,0.820489054,0.000002697,6.295940502,0.000000000,0.000230448,0.000001082,0.000000000,0.000000181,0.000000002,0.000000020,1.100000000,3.000000000,0.000000000,3.000000000,3.000000000,-0.000000000,0.520000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@32325ec6
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[330513.0]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_128.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Error in Satzilla SP
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,4377.000000000,24231.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,0.240000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@182f9af1
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_130.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,121.000000000,967.000000000,114.000000000,783.000000000,0.061403509,0.234993614,0.000000000,0.145593870,0.496807152,1.006406215,0.000000000,1.000000000,0.693126792,0.034751630,0.069201330,0.017543860,0.035087719,0.094740272,0.000000000,0.019157088,0.019157088,0.000000000,0.034751630,0.052758923,0.028097063,0.035759898,0.620666239,0.010717703,0.019875454,0.000000000,0.090909091,0.620666239,0.008827945,0.040925166,0.007662835,0.008939974,0.297229111,0.257982120,0.017947167,0.092754934,0.011494253,0.019157088,0.000000000,0.047758156,0.085537141,0.019157088,0.049808429,1.296163424,0.438009887,0.102090862,0.423076923,0.750000000,1.184973934,0.020000000,0.081871532,1.166159234,0.000543606,0.404301134,0.231865652,0.003218233,0.108073562,0.013093722,0.036384375,0.033311581,0.037471175,0.030037798,0.037155858,0.033985429,0.031138770,0.033944880,0.033441299,0.033799806,0.000000000,4.212389381,0.097094286,4.000000000,5.000000000,0.517105263,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3affa0b5
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[8.46739901E8]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_133.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,9639.000000000,41434.000000000,3011.000000000,13290.000000000,2.201262039,2.117682468,0.360000000,0.226561324,0.498568231,0.682825671,0.000000000,1.000000000,0.923230950,0.000936521,0.214643754,0.000664231,0.012952507,0.538740822,0.000000000,0.193905192,0.992249812,0.000000000,0.000936521,0.682169243,0.000526712,0.006245297,1.481044541,0.075063018,0.077947415,0.000000000,0.863636364,1.446472526,0.000494875,0.858534268,0.000150489,0.003912716,1.970039339,0.541835967,0.000663631,1.680758283,0.000300978,0.008803612,0.020000000,0.001592671,1.162388086,0.000451467,0.122197141,2.659813364,0.265522525,0.538913246,0.001279272,0.538461538,2.931916645,0.420000000,0.287877538,0.442260143,0.000194525,0.970970272,0.449852747,0.200224280,0.378759097,0.210775457,0.254776871,0.039096745,0.444547456,0.000000000,0.074023540,0.057967880,0.017816217,0.056062009,0.025251604,0.031438240,0.120000000,6.486378738,0.095951736,4.000000000,7.000000000,0.880741211,1.500000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@7324e495
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.0]}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_142.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,6712.000000000,26094.000000000,2111.000000000,10078.000000000,2.179535765,1.589204207,0.440000000,0.209466164,0.371461833,0.887881800,0.000000000,1.000000000,1.339915264,0.001427614,0.274761752,0.000947418,0.005210801,1.112169192,0.000000000,0.303631673,0.693093868,-0.000000000,0.001427614,2.103950177,0.000793808,0.136634253,2.124578692,0.107212946,0.067879072,0.000000000,0.807692308,2.125296899,0.000464449,2.382075863,0.000198452,0.049811471,1.848846191,0.427564993,0.001000251,1.845543591,0.000496130,0.083151419,-0.000000000,0.011188971,2.069813880,0.000496130,0.072435007,3.506797116,0.135844184,0.596452187,0.004699409,0.506493506,3.048721476,13.340000000,0.192955756,0.815961022,0.000000000,1.000000000,0.284619297,0.074315377,0.186019664,0.123644937,0.148265844,0.027555542,0.905197883,0.000000000,0.186227055,0.042441495,0.011830137,0.034172798,0.014565701,0.017812350,0.220000000,9.054028436,0.061294343,6.000000000,11.000000000,0.797166983,0.560000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@413f2437
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_154.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,91.000000000,2963.000000000,90.000000000,2872.000000000,0.011111111,0.031685237,0.000000000,0.031337047,0.500000000,0.577350269,0.333333333,1.000000000,0.562335145,0.066666667,0.000000000,0.066666667,0.066666667,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.066666667,0.015000459,0.061281337,0.066852368,0.146144746,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.008333333,0.015000459,0.007660167,0.008356546,0.146144746,0.125000000,0.017618384,0.072451790,0.014275766,0.019498607,0.000000000,0.112218830,0.021941309,0.104805014,0.114554318,1.292764601,0.480444540,0.033425237,0.456737589,0.520152986,1.604533698,8.780000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.002478561,0.119073199,0.002421107,0.004069014,0.002430557,0.002421169,0.002425108,0.002421262,0.002424221,0.100000000,3.000000000,0.000000000,3.000000000,3.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@53240296
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_167.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Error in Satzilla SP
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,349991.000000000,929963.000000000,0.000000000,0.000000000,-512.000000000,-512.000000000,2.260000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,-512.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,-512.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.000000000,0.000000000,0.000000000,0.000000000,-0.000000000,0.000000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@79a7e591
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_174.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,401.000000000,4007.000000000,394.000000000,3418.000000000,0.017766497,0.172322996,0.000000000,0.115272089,0.373268968,0.886743396,0.000000000,1.000000000,1.125755764,0.009957733,0.076003691,0.005076142,0.010152284,0.273990143,0.000000000,0.009069631,0.067583382,0.000000000,0.009957733,0.142787191,0.004681100,0.010532475,1.291627549,0.014925225,0.020626809,0.000000000,0.090909091,1.044716174,0.003193009,0.255397123,0.000585138,0.004973669,2.409622866,0.325921592,0.005493461,0.036429203,0.004388531,0.005558806,0.000000000,0.014180083,0.118763763,0.002340550,0.014921006,1.645667763,0.404644876,0.089179847,0.086693548,0.727272727,0.740971842,0.300000000,0.067816349,1.520851196,0.000080552,0.456560197,0.163143023,0.002658578,0.086850559,0.006287243,0.015929828,0.009372384,0.230229330,0.005409540,0.024756922,0.009320904,0.008001407,0.009301042,0.008529079,0.009273359,0.040000000,4.994910941,0.014245676,4.000000000,5.000000000,0.031949687,0.040000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@492267bb
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_179.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,28403.000000000,83605.000000000,800.000000000,15200.000000000,34.503750000,4.500328947,0.520000000,0.052631579,1.000000000,0.000000000,1.000000000,1.000000000,-0.000000000,0.003223684,0.989011892,0.002500000,0.027500000,0.337201393,0.000000000,0.947368421,0.947368421,-0.000000000,0.003223684,0.294160861,0.001315789,0.006052632,3.948283711,0.439949575,0.158182558,0.069767442,0.777777778,3.867629115,0.000855263,0.242582262,0.000328947,0.001513158,2.539127286,0.052631579,0.009960197,0.208942165,0.003421053,0.016118421,-0.000000000,0.003216257,2.171833063,0.000789474,0.066184211,3.263640472,0.072992609,0.283904207,0.001986097,0.153846154,1.828771869,4.800000000,0.771866325,0.113861781,0.290061257,0.959509788,0.879297950,0.658655544,0.830070014,0.721183769,0.779787967,0.004339721,1.437583178,0.000000056,0.046950768,0.012828098,0.000003665,0.006957370,0.000016297,0.000967817,0.180000000,3.000000000,0.000000000,3.000000000,3.000000000,-0.000000000,0.320000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@56303ee5
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_180.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,5200.000000000,19688.000000000,2111.000000000,10078.000000000,1.463287541,0.953562215,0.400000000,0.209466164,0.371461833,0.887881800,0.000000000,1.000000000,1.339915264,0.001427614,0.274761752,0.000947418,0.005210801,1.112169192,0.000000000,0.303631673,0.693093868,-0.000000000,0.001427614,2.103950177,0.000793808,0.136634253,2.124578692,0.107212946,0.067879072,0.000000000,0.807692308,2.125296899,0.000464449,2.382075863,0.000198452,0.049811471,1.848846191,0.427564993,0.001000251,1.845543591,0.000496130,0.083151419,0.020000000,0.011188971,2.069813880,0.000496130,0.072435007,3.506797116,0.135844184,0.596452187,0.004699409,0.506493506,3.048721476,13.440000000,0.192955756,0.815961022,0.000000000,1.000000000,0.284619297,0.074315377,0.186019664,0.123644937,0.148265844,0.027555542,0.905197883,0.000000000,0.186227055,0.042441495,0.011830137,0.034172798,0.014565701,0.017812350,0.220000000,9.054028436,0.061294343,6.000000000,11.000000000,0.797166983,0.540000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@3e43e1ea
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[4.925100476997762E114]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_181.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,730.000000000,11273.000000000,369.000000000,3424.000000000,0.978319783,2.292348131,0.060000000,0.107768692,1.000000000,0.000000000,1.000000000,1.000000000,-0.000000000,0.006162462,0.458934577,0.005420054,0.024390244,0.394464224,0.000000000,0.925817757,0.931366822,0.000000000,0.006162462,0.173498077,0.002628505,0.008469626,2.640285710,0.614770333,0.069775721,0.333333333,0.760000000,2.664482574,0.005010068,0.209417546,0.001752336,0.007301402,2.605533830,0.924357477,0.005010068,0.209417546,0.001752336,0.007301402,0.000000000,0.003650360,1.759119061,0.001168224,0.051401869,1.152643737,0.241407858,0.261359899,0.011299435,0.400000000,0.930583424,0.040000000,0.760437326,0.114087678,0.211175461,0.899514074,0.843582347,0.659848340,0.818321176,0.720559236,0.779153812,0.005686082,0.287124731,0.003792301,0.015923608,0.006916613,0.004284493,0.006173675,0.004752897,0.005445119,0.020000000,4.978260870,0.036009656,4.000000000,6.000000000,0.158388684,0.020000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@2eeeffe0
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[20.0]}
+First Pipeline finished!
+Status ok, kill other pipeline
+Solver interrupted!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_182.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1535.000000000,91593.000000000,1475.000000000,88524.000000000,0.040677966,0.034668564,1.660000000,0.016662148,0.996124811,0.017000490,0.818181818,1.000000000,0.203302596,0.002182030,1.646587902,0.001355932,0.033220339,0.217570334,0.000000000,0.949380959,0.949380959,0.000000000,0.002182030,0.259193854,0.000598708,0.003547061,5.161654455,0.224758649,0.075249690,0.093525180,0.643835616,3.192676564,0.001287296,0.230879890,0.000451855,0.002089829,4.609713810,0.949380959,0.002407345,0.261724949,0.000564819,0.004202250,0.040000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-512.000000000,-1.000000000,-0.000000000,-1.000000000,0.000000000,-0.000000000,20.040000000,0.858424425,0.022455258,0.817801831,0.954996557,0.881646152,0.837155457,0.867765335,0.845582819,0.855464299,0.000193854,7.846267530,0.000000000,0.022034051,0.000031620,0.000000001,0.000002018,0.000000008,0.000000105,3.680000000,3.972184532,0.041398835,3.000000000,4.000000000,0.127064521,3.460000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@373d74b2
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_187.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,361.000000000,3607.000000000,352.000000000,3062.000000000,0.025568182,0.177988243,0.000000000,0.114957544,0.385586762,0.863318677,0.000000000,1.000000000,1.131585839,0.011174366,0.068825895,0.005681818,0.011363636,0.248509328,0.000000000,0.005551927,0.061071195,0.000000000,0.011174366,0.129655726,0.004572175,0.011757022,1.343635929,0.016639222,0.022916729,0.000000000,0.125000000,1.129935445,0.003633246,0.222589501,0.001306336,0.005551927,2.305758094,0.330502939,0.006106748,0.040117445,0.004572175,0.006205095,0.000000000,0.015877184,0.105393853,0.002612671,0.016655781,1.680280487,0.407155100,0.068433933,0.183333333,0.721014493,0.708889766,0.280000000,0.070488569,1.408714146,0.000036798,0.450303206,0.175888448,0.003445986,0.086749130,0.008962048,0.022999119,0.009662864,0.311245299,0.007110887,0.033079082,0.009322208,0.008381542,0.009303427,0.008629335,0.009285582,0.020000000,4.977207977,0.029984661,4.000000000,5.000000000,0.108714783,0.040000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@73a70ce1
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Run file /home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_190.dimacs
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver TwG/1.sh
+Extracted feature Vector: ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,13794.000000000,47676.000000000,2585.000000000,15831.000000000,4.336170213,2.011559598,0.940000000,0.163287221,0.410531975,0.722166775,0.000000000,1.000000000,1.662914963,0.001543992,1.158466429,0.000773694,0.013539652,1.302212411,0.000000000,0.193165309,0.688269850,0.000000000,0.001543992,1.036065726,0.000442170,0.030193923,2.313856731,0.274837064,0.221376112,0.000000000,0.970588235,1.888086946,0.000354714,1.277375473,0.000063167,0.006885225,1.890997362,0.353925842,0.002736203,0.700049753,0.000315836,0.021034679,0.020000000,0.003748735,1.161485121,0.000379003,0.055713474,4.259248918,0.200732941,0.651180522,0.007957401,0.631016043,3.233875031,4.720000000,0.175641021,1.310323811,0.000057563,0.999999238,0.484413277,0.009536299,0.125101779,0.085295396,0.096802293,0.163514512,0.713840755,0.000000000,0.434861023,0.254844660,0.001245782,0.242880774,0.022752702,0.239280347,1.280000000,5.540634675,0.097347800,4.000000000,6.000000000,0.770592588,1.520000000,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Got Prediction: de.uulm.sp.fmc.as4moco.selection.messages.python.Prediction@77935a28
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+First Pipeline finished!
+Status not ok, wait for other pipeline
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Second pipeline finished!
+Closing Autofolio!
+
+> Task :FeatureExtraction:run
+
+> Task :FeatureExtraction:run FAILED
+6 actionable tasks: 3 executed, 3 up-to-date

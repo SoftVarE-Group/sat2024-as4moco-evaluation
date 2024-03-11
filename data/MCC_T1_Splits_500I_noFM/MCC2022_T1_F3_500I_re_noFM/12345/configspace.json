@@ -1,0 +1,609 @@
+{
+  "hyperparameters": [
+    {
+      "name": "StandardScaler",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-BASE",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-CL",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-DIA",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-LOBJOIS",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-LP",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-LS",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-SP",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "fgroup_Satzilla-UNIT",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "imputer_strategy",
+      "type": "categorical",
+      "choices": [
+        "mean",
+        "median",
+        "most_frequent"
+      ],
+      "default": "mean",
+      "weights": null
+    },
+    {
+      "name": "pca",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": false,
+      "weights": null
+    },
+    {
+      "name": "presolving",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": false,
+      "weights": null
+    },
+    {
+      "name": "selector",
+      "type": "categorical",
+      "choices": [
+        "PairwiseClassifier",
+        "PairwiseRegressor",
+        "MultiClassifier",
+        "IndRegressor",
+        "JointRegressor"
+      ],
+      "default": "PairwiseClassifier",
+      "weights": null
+    },
+    {
+      "name": "classifier",
+      "type": "categorical",
+      "choices": [
+        "RandomForest",
+        "XGBoost"
+      ],
+      "default": "RandomForest",
+      "weights": null
+    },
+    {
+      "name": "pca_n_components",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 1,
+      "upper": 20,
+      "default": 7
+    },
+    {
+      "name": "pre:cutoff",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 5,
+      "upper": 3600,
+      "default": 360
+    },
+    {
+      "name": "regressor",
+      "type": "categorical",
+      "choices": [
+        "RandomForestRegressor"
+      ],
+      "default": "RandomForestRegressor",
+      "weights": null
+    },
+    {
+      "name": "rf:bootstrap",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "rf:criterion",
+      "type": "categorical",
+      "choices": [
+        "gini",
+        "entropy"
+      ],
+      "default": "gini",
+      "weights": null
+    },
+    {
+      "name": "rf:max_depth",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 10,
+      "upper": 2147483648,
+      "default": 2147483648
+    },
+    {
+      "name": "rf:max_features",
+      "type": "categorical",
+      "choices": [
+        "sqrt",
+        "log2",
+        "None"
+      ],
+      "default": "sqrt",
+      "weights": null
+    },
+    {
+      "name": "rf:min_samples_leaf",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 2,
+      "upper": 100,
+      "default": 10
+    },
+    {
+      "name": "rf:min_samples_split",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 2,
+      "upper": 100,
+      "default": 2
+    },
+    {
+      "name": "rf:n_estimators",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 10,
+      "upper": 100,
+      "default": 10
+    },
+    {
+      "name": "rfreg:bootstrap",
+      "type": "categorical",
+      "choices": [
+        true,
+        false
+      ],
+      "default": true,
+      "weights": null
+    },
+    {
+      "name": "rfreg:max_depth",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 10,
+      "upper": 2147483648,
+      "default": 2147483648
+    },
+    {
+      "name": "rfreg:max_features",
+      "type": "categorical",
+      "choices": [
+        "sqrt",
+        "log2",
+        "None"
+      ],
+      "default": "sqrt",
+      "weights": null
+    },
+    {
+      "name": "rfreg:min_samples_leaf",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 2,
+      "upper": 100,
+      "default": 10
+    },
+    {
+      "name": "rfreg:min_samples_split",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 2,
+      "upper": 100,
+      "default": 2
+    },
+    {
+      "name": "rfreg:n_estimators",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 10,
+      "upper": 100,
+      "default": 10
+    },
+    {
+      "name": "xgb:alpha",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 10.0,
+      "default": 1.0
+    },
+    {
+      "name": "xgb:colsample_bylevel",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.5,
+      "upper": 1.0,
+      "default": 1.0
+    },
+    {
+      "name": "xgb:colsample_bytree",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.5,
+      "upper": 1.0,
+      "default": 1.0
+    },
+    {
+      "name": "xgb:eta",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.3
+    },
+    {
+      "name": "xgb:gamma",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 10.0,
+      "default": 0.0
+    },
+    {
+      "name": "xgb:lambda",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 10.0,
+      "default": 1.0
+    },
+    {
+      "name": "xgb:max_delta_step",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 10.0,
+      "default": 0.0
+    },
+    {
+      "name": "xgb:max_depth",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 10,
+      "default": 6
+    },
+    {
+      "name": "xgb:min_child_weight",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 20.0,
+      "default": 1.0
+    },
+    {
+      "name": "xgb:num_round",
+      "type": "uniform_int",
+      "log": true,
+      "lower": 10,
+      "upper": 100,
+      "default": 50
+    },
+    {
+      "name": "xgb:subsample",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.01,
+      "upper": 1.0,
+      "default": 1.0
+    }
+  ],
+  "conditions": [
+    {
+      "child": "pca_n_components",
+      "parent": "pca",
+      "type": "IN",
+      "values": [
+        true
+      ]
+    },
+    {
+      "child": "pre:cutoff",
+      "parent": "presolving",
+      "type": "IN",
+      "values": [
+        true
+      ]
+    },
+    {
+      "child": "classifier",
+      "parent": "selector",
+      "type": "IN",
+      "values": [
+        "MultiClassifier",
+        "PairwiseClassifier"
+      ]
+    },
+    {
+      "child": "regressor",
+      "parent": "selector",
+      "type": "IN",
+      "values": [
+        "IndRegressor",
+        "JointRegressor",
+        "PairwiseRegressor"
+      ]
+    },
+    {
+      "child": "rf:bootstrap",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:criterion",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:max_depth",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:max_features",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:min_samples_leaf",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:min_samples_split",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "rf:n_estimators",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "RandomForest"
+      ]
+    },
+    {
+      "child": "xgb:alpha",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:colsample_bylevel",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:colsample_bytree",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:eta",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:gamma",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:lambda",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:max_delta_step",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:max_depth",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:min_child_weight",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:num_round",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "xgb:subsample",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "XGBoost"
+      ]
+    },
+    {
+      "child": "rfreg:bootstrap",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    },
+    {
+      "child": "rfreg:max_depth",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    },
+    {
+      "child": "rfreg:max_features",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    },
+    {
+      "child": "rfreg:min_samples_leaf",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    },
+    {
+      "child": "rfreg:min_samples_split",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    },
+    {
+      "child": "rfreg:n_estimators",
+      "parent": "regressor",
+      "type": "IN",
+      "values": [
+        "RandomForestRegressor"
+      ]
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

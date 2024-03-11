@@ -1,0 +1,1961 @@
+Git dependency: Added 'FeatureExtraction' for 'as4moco'
+Git dependency: Local version '686028c' is not equal to target 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Updating to version 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Update started 'https://github.com/RSD6170/feature-model-batch-analysis.git' at version 'origin/main'
+Git dependency: Update finished (289 ms)
+> Task :FeatureExtraction:compileJava UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :FeatureExtraction:processResources NO-SOURCE
+> Task :FeatureExtraction:classes UP-TO-DATE
+> Task :FeatureExtraction:jar UP-TO-DATE
+
+> Task :run
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_000.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[2048.0]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[3.32189E9]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_007.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[3.321888768E9]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[1.20422E7]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_008.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[1.204224E7]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[7.03687E13]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_013.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[7.0368744177664E13]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[1.74083E12]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_018.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[1.740830441712E12]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[6.33825E29]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[6.33825300114112E29]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[6.33825300114112E29]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_022.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[6.338253001141147E29]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[27.0]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_023.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2.61546E56]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.615459060673812E56]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.615459060673812E56]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_037.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[2.6154590606738302E56]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[1.40446E131]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[1.4044558252471152E131]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_042.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[7.45889E17]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_044.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[7.458894566772184E17]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[1.6695E133]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[1.6694996857453792E133]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_046.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[1.21482E12]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_048.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[1.214819892986E12]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_049.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_050.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[4.44997E94]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[4.58903464748633E94]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[4.449972995127823E94]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[4.449972995127823E94]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[4.4847384054980046E94]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_051.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[4.449972995127863E94]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[3.52563E123]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[3.470543836148805E123]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[3.525631833958117E123]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[3.525631833958117E123]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[3.553175832247586E123]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_055.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[3.525631833958154E123]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[7.62874E19]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[7.628738301614037E19]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_074.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[3.06897E13]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_080.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=OK, solution=Optional[3.0689663761877E13]}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2.95312E44]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.9531154786740086E44]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_083.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[4.8357E24]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[4.835703278458517E24]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[4.835703278458517E24]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[4.835703278458517E24]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[4.911261142184431E24]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[4.835703278458517E24]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_085.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2.48662E86]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.486616180891012E86]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_087.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.0]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_090.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[4.451852916981496E16]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_092.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[2097150.0]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2097152.0]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_099.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[8.9912058E7]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[8.9912074E7]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_119.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.630067950774149E210]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.630067950774187E210]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_122.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[9.2287523487744E15]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_136.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[4.1899398854301515E152]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[4.18994E152]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[4.1899398854301515E152]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[4.1899398854301515E152]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[4.1899398854301515E152]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[4.1899398854301515E152]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_144.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.71406232E8]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.71406232E8]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[2.71406232E8]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_147.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_148.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_156.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[8.7107652E7]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_159.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_161.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_164.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_170.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[2.342151032407662E28]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_171.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[6.345679961356086E21]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[6.124422803509112E21]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[6.345679961356086E21]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_186.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver gpmc/track1
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Git dependency: Added 'FeatureExtraction' for 'as4moco'
+Git dependency: Local version '686028c' is not equal to target 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Updating to version 'origin/main' for '/home/ubuntu/as4moco/as4moco/libs/FeatureExtraction'
+Git dependency: Update started 'https://github.com/RSD6170/feature-model-batch-analysis.git' at version 'origin/main'
+Git dependency: Update finished (530 ms)
+> Task :FeatureExtraction:compileJava UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :FeatureExtraction:processResources NO-SOURCE
+> Task :FeatureExtraction:classes UP-TO-DATE
+> Task :FeatureExtraction:jar UP-TO-DATE
+
+> Task :run
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_189.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=OK, solution=Optional[Infinity]}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_196.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+Run task RunTask[solver=gpmc_r2/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver gpmc_r2/track1
+Solver finished: SolverResponse{solver=Optional[gpmc_r2/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=gpmc/track1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver gpmc/track1
+Solver finished: SolverResponse{solver=Optional[gpmc/track1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_Arjun.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_Arjun.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_Arjun.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp0, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp0
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp0], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=dpmcpre/1pre1mp1, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver dpmcpre/1pre1mp1
+Solver finished: SolverResponse{solver=Optional[dpmcpre/1pre1mp1], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-51fd045537919d/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver Narsimha-track1v-51fd045537919d/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-51fd045537919d/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver TwG/1.sh
+Solver finished: SolverResponse{solver=Optional[TwG/1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=d4/default.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver d4/default.sh
+Solver finished: SolverResponse{solver=Optional[d4/default.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=TwG/2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver TwG/2.sh
+Solver finished: SolverResponse{solver=Optional[TwG/2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=ExactMC/ExactMC_BE.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver ExactMC/ExactMC_BE.sh
+Solver finished: SolverResponse{solver=Optional[ExactMC/ExactMC_BE.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=c2d/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver c2d/default
+Solver finished: SolverResponse{solver=Optional[c2d/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf2.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh
+Solver finished: SolverResponse{solver=Optional[Narsimha-track1v-7112ef8eb466e9475/track1_conf1.sh], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=SharpSAT-TD-unweighted/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver SharpSAT-TD-unweighted/default
+Solver finished: SolverResponse{solver=Optional[SharpSAT-TD-unweighted/default], status=TIMEOUT, solution=Optional.empty}
+Run task RunTask[solver=mtmc/default, cnf=/home/ubuntu/MCC2022_T1_cnfs/mc2022_track1_197.dimacs, timeout=3600]
+Run solver mtmc/default
+Solver finished: SolverResponse{solver=Optional[mtmc/default], status=ERROR, solution=Optional.empty}
+
+> Task :FeatureExtraction:run FAILED
+6 actionable tasks: 2 executed, 4 up-to-date

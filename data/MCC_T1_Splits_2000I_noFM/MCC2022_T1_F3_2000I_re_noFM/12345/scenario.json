@@ -1,0 +1,369 @@
+{
+    "name": "0f6f3720de0d5fc6a20e846aa5b2cf00",
+    "deterministic": true,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": Infinity,
+    "cputime_limit": Infinity,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 2000,
+    "use_default_config": false,
+    "instances": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+    ],
+    "instance_features": {
+        "1": [
+            1
+        ],
+        "2": [
+            2
+        ],
+        "3": [
+            3
+        ],
+        "4": [
+            4
+        ],
+        "5": [
+            5
+        ],
+        "6": [
+            6
+        ],
+        "7": [
+            7
+        ],
+        "8": [
+            8
+        ],
+        "9": [
+            9
+        ],
+        "10": [
+            10
+        ]
+    },
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 12345,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "HyperparameterOptimizationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b'\\x88\\x01j\\x00\\x88\\x00|\\x00|\\x01|\\x02d\\x01\\x8d\\x04S\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                5,
+                3,
+                0,
+                0,
+                2,
+                3,
+                3,
+                0,
+                4,
+                0,
+                0,
+                0,
+                3,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    5,
+                    NaN
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    4,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    4,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ]
+            ],
+            "pca_components": 7,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 1.0,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_depth": 1048576,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": true
+            },
+            "challengers": 10000,
+            "seed": 12345,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 12345
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 12345,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": true
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 12345
+        },
+        "initial_design": {
+            "name": "SobolInitialDesign",
+            "n_configs": 410,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [],
+            "seed": 12345
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 0,
+            "probability": 0.2
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryLogScaledEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 12345
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 8,
+            "retries": 16,
+            "min_trials": 1
+        },
+        "version": "2.0.2"
+    },
+    "output_directory": "smac3_output/0f6f3720de0d5fc6a20e846aa5b2cf00/12345"
+}
