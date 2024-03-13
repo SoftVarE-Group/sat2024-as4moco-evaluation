@@ -1,0 +1,1 @@
+Input Instance from [Model Counting Competition 2022, Track 1](https://datashare.tu-dresden.de/index.php/s/7iZSNgKT27FEsGX), kindly provided by Johannes Fichte and Markus Hecher.
