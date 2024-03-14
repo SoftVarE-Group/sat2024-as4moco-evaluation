@@ -1,7 +1,5 @@
 # Replication Package for 'Choosing What Counts – Exploring Algorithm Selection for Model Counting'
 
-Holds both 
-
 ## Reproduce as4moco run on already trained ML models
 1. Install as4moco (see [installation guide](https://github.com/SoftVarE-Group/as4moco/blob/master/README.md#how-to-install))
 2. Run analysis for each ML model on multiple instances (method `runNormalMultiple` in [as4moco Main](https://github.com/SoftVarE-Group/as4moco/blob/master/src/main/java/de/uulm/sp/fmc/as4moco/Main.java))
